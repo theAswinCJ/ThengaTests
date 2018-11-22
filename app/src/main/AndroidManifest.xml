@@ -1,0 +1,55 @@
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.example.thengapal3">
+
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+	
+		<activity
+			android:label="@string/walkthrough4_transport_activity_title"
+			android:name=".activity.Walkthrough4TransportActivity"
+			android:theme="@style/Walkthrough4TransportActivityTheme"/>
+	
+		<activity
+			android:label="@string/walkthrough3_harvest_activity_title"
+			android:name=".activity.Walkthrough3HarvestActivity"
+			android:theme="@style/Walkthrough3HarvestActivityTheme"/>
+	
+		<activity
+			android:label="@string/walkthrough2_sell_activity_title"
+			android:name=".activity.Walkthrough2SellActivity"
+			android:theme="@style/Walkthrough2SellActivityTheme"/>
+	
+		<activity
+			android:label="@string/walkthrough1_buy_activity_title"
+			android:name=".activity.Walkthrough1BuyActivity"
+			android:theme="@style/Walkthrough1BuyActivityTheme"/>
+	
+		<activity
+			android:label="@string/home_activity_title"
+			android:name=".activity.HomeActivity"
+			android:theme="@style/HomeActivityTheme"/>
+	
+		<activity
+			android:label="@string/sign_up_activity_title"
+			android:name=".activity.SignUpActivity"
+			android:theme="@style/SignUpActivityTheme"/>
+	
+		<activity
+			android:label="@string/sign_in_activity_title"
+			android:name=".activity.SignInActivity"
+			android:theme="@style/SignInActivityTheme">
+		
+			<intent-filter>
+			
+				<category android:name="android.intent.category.LAUNCHER"/>
+			
+				<action android:name="android.intent.action.MAIN"/>
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>

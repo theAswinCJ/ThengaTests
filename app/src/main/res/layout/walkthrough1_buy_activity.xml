@@ -1,0 +1,93 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/walkthrough1_buy_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/walkthrough1_buy_activity_walkthrough1_buy_constraint_layout_background_color">
+
+	<Button
+		android:id="@+id/walkthrough_next_button_button"
+		android:layout_width="@dimen/walkthrough1_buy_activity_walkthrough_next_button_button_width"
+		android:layout_height="@dimen/walkthrough1_buy_activity_walkthrough_next_button_button_height"
+		android:layout_marginBottom="@dimen/walkthrough1_buy_activity_walkthrough_next_button_button_margin_bottom"
+		android:layout_marginRight="@dimen/walkthrough1_buy_activity_walkthrough_next_button_button_margin_end"
+		android:background="?attr/selectableItemBackground"
+		android:fontFamily="@font/font_sfnstext"
+		android:gravity="left"
+		android:lineSpacingMultiplier="1"
+		android:textColor="@color/walkthrough1_buy_activity_walkthrough_next_button_button_text_color"
+		android:textSize="@dimen/walkthrough1_buy_activity_walkthrough_next_button_button_text_size"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		tools:layout_editor_absoluteX="302dp"
+		tools:layout_editor_absoluteY="629dp"/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/walkthrough_constraint_layout"
+		android:layout_width="@dimen/walkthrough1_buy_activity_walkthrough_constraint_layout_width"
+		android:layout_height="@dimen/walkthrough1_buy_activity_walkthrough_constraint_layout_height"
+		android:layout_marginRight="@dimen/walkthrough1_buy_activity_walkthrough_constraint_layout_margin_end"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="60dp"
+		tools:layout_editor_absoluteY="0dp">
+	
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/group2_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/walkthrough1_buy_activity_group2_constraint_layout_height"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp">
+		
+			<TextView
+				android:id="@+id/description_text_view"
+				android:layout_width="@dimen/walkthrough1_buy_activity_description_text_view_width"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/walkthrough1_buy_activity_description_text_view_margin_bottom"
+				android:layout_marginLeft="@dimen/walkthrough1_buy_activity_description_text_view_margin_start"
+				android:fontFamily="@font/font_montserrat_regular"
+				android:gravity="left"
+				android:lineSpacingMultiplier="1.22"
+				android:text="@string/walkthrough1_buy_activity_description_text_view_text"
+				android:textColor="@color/walkthrough1_buy_activity_description_text_view_text_color"
+				android:textSize="@dimen/walkthrough1_buy_activity_description_text_view_text_size"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintLeft_toLeftOf="parent"
+				tools:layout_editor_absoluteX="1dp"
+				tools:layout_editor_absoluteY="491dp"/>
+		
+			<TextView
+				android:id="@+id/title_text_view"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/walkthrough1_buy_activity_title_text_view_margin_top"
+				android:fontFamily="@font/font_montserrat_bold"
+				android:gravity="left"
+				android:lineSpacingMultiplier="1"
+				android:text="@string/walkthrough1_buy_activity_title_text_view_text"
+				android:textColor="@color/walkthrough1_buy_activity_title_text_view_text_color"
+				android:textSize="@dimen/walkthrough1_buy_activity_title_text_view_text_size"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/image_image_view"
+				tools:layout_editor_absoluteX="0dp"
+				tools:layout_editor_absoluteY="400dp"/>
+		
+			<ImageView
+				android:id="@+id/image_image_view"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:src="@drawable/image_4"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="0dp"
+				tools:layout_editor_absoluteY="0dp"/>
+		</android.support.constraint.ConstraintLayout>
+	</android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,85 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<color name="color_primary">#000000</color>
+	<color name="color_primary_dark">#000000</color>
+	<color name="color_accent">#000000</color>
+	<color name="click_overlay">#555555</color>
+	<color name="default_hint">#C6C6CB</color>
+	
+	<!-- Walkthrough4TransportActivity -->
+	<color name="walkthrough4_transport_activity_walkthrough4_transport_constraint_layout_background_color">#FFFFFF</color>
+	<color name="walkthrough4_transport_activity_button_image_button_text_color">#000000</color>
+	<color name="walkthrough4_transport_activity_description_text_view_text_color">#828393</color>
+	<color name="walkthrough4_transport_activity_title_text_view_text_color">#2A2A30</color>
+	
+	<!-- Walkthrough3HarvestActivity -->
+	<color name="walkthrough3_harvest_activity_walkthrough3_harvest_constraint_layout_background_color">#FFFFFF</color>
+	<color name="walkthrough3_harvest_activity_button_image_button_text_color">#000000</color>
+	<color name="walkthrough3_harvest_activity_description_text_view_text_color">#828393</color>
+	<color name="walkthrough3_harvest_activity_title_text_view_text_color">#2A2A30</color>
+	
+	<!-- Walkthrough2SellActivity -->
+	<color name="walkthrough2_sell_activity_walkthrough2_sell_constraint_layout_background_color">#FFFFFF</color>
+	<color name="walkthrough2_sell_activity_button_image_button_text_color">#000000</color>
+	<color name="walkthrough2_sell_activity_description_text_view_text_color">#828393</color>
+	<color name="walkthrough2_sell_activity_title_text_view_text_color">#2A2A30</color>
+	
+	<!-- Walkthrough1BuyActivity -->
+	<color name="walkthrough1_buy_activity_walkthrough1_buy_constraint_layout_background_color">#FFFFFF</color>
+	<color name="walkthrough1_buy_activity_walkthrough_next_button_button_text_color">#000000</color>
+	<color name="walkthrough1_buy_activity_description_text_view_text_color">#828393</color>
+	<color name="walkthrough1_buy_activity_title_text_view_text_color">#2A2A30</color>
+	
+	<!-- HomeActivity -->
+	<color name="home_activity_home_constraint_layout_background_color">#FFFFFF</color>
+	<color name="home_activity_card_title_text_view_text_color">#2A2A30</color>
+	<color name="home_activity_never_bother_anyone_text_view_text_color">#828393</color>
+	<color name="home_activity_card_title_two_text_view_text_color">#2A2A30</color>
+	<color name="home_activity_never_bother_anyone_two_text_view_text_color">#828393</color>
+	<color name="home_activity_card_title_three_text_view_text_color">#2A2A30</color>
+	<color name="home_activity_never_bother_anyone_three_text_view_text_color">#828393</color>
+	<color name="home_activity_card_title_four_text_view_text_color">#2A2A30</color>
+	<color name="home_activity_never_bother_anyone_four_text_view_text_color">#828393</color>
+	<color name="home_activity_center_text_text_view_text_color">#000000</color>
+	<color name="home_activity_nav_header_button_text_color">#000000</color>
+	
+	<!-- SignUpActivity -->
+	<color name="sign_up_activity_sign_up_constraint_layout_background_color">#FFFFFF</color>
+	<color name="sign_up_activity_login_instead_button_text_color">#FFFFFF</color>
+	<color name="sign_up_activity_base_constraint_layout_background_color">#FFFFFF</color>
+	<color name="sign_up_activity_line_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_activity_line_edit_text_text_color">#000000</color>
+	<color name="sign_up_activity_line_edit_text_border_color">#000000</color>
+	<color name="sign_up_activity_email_text_view_text_color">#828393</color>
+	<color name="sign_up_activity_line_two_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_activity_line_two_edit_text_text_color">#000000</color>
+	<color name="sign_up_activity_line_two_edit_text_border_color">#000000</color>
+	<color name="sign_up_activity_password_text_view_text_color">#828393</color>
+	<color name="sign_up_activity_line_three_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_activity_line_three_edit_text_text_color">#000000</color>
+	<color name="sign_up_activity_line_three_edit_text_border_color">#000000</color>
+	<color name="sign_up_activity_name_text_view_text_color">#828393</color>
+	<color name="sign_up_activity_button_button_background_color">#FFFFFF</color>
+	<color name="sign_up_activity_button_button_text_color">#28C76F</color>
+	<color name="sign_up_activity_sign_up_text_view_text_color">#FFFFFF</color>
+	<color name="sign_up_activity_thengapal_text_view_text_color">#FFFFFF</color>
+	
+	<!-- SignInActivity -->
+	<color name="sign_in_activity_sign_in_constraint_layout_background_color">#FFFFFF</color>
+	<color name="sign_in_activity_don_thave_an_accoun_button_text_color">#FFFFFF</color>
+	<color name="sign_in_activity_button_button_background_color">#FFFFFF</color>
+	<color name="sign_in_activity_button_button_text_color">#28C76F</color>
+	<color name="sign_in_activity_form_constraint_layout_background_color">#FFFFFF</color>
+	<color name="sign_in_activity_forgot_password_text_view_text_color">#828393</color>
+	<color name="sign_in_activity_line_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_in_activity_line_edit_text_text_color">#000000</color>
+	<color name="sign_in_activity_line_edit_text_border_color">#000000</color>
+	<color name="sign_in_activity_password_text_view_text_color">#828393</color>
+	<color name="sign_in_activity_line_two_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_in_activity_line_two_edit_text_text_color">#000000</color>
+	<color name="sign_in_activity_line_two_edit_text_border_color">#000000</color>
+	<color name="sign_in_activity_email_text_view_text_color">#828393</color>
+	<color name="sign_in_activity_log_in_text_view_text_color">#FFFFFF</color>
+	<color name="sign_in_activity_thengapal_text_view_text_color">#FFFFFF</color>
+</resources>

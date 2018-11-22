@@ -1,0 +1,57 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<string name="app_name">ThengaPal3</string>
+	
+	<!-- Walkthrough4TransportActivity -->
+	<string name="walkthrough4_transport_activity_title"></string>
+	<string name="walkthrough4_transport_activity_description_text_view_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra fringilla ultrices. Suspendisse tempor turpis semper ipsum congue, id maximus.</string>
+	<string name="walkthrough4_transport_activity_title_text_view_text">Transport</string>
+	
+	<!-- Walkthrough3HarvestActivity -->
+	<string name="walkthrough3_harvest_activity_title"></string>
+	<string name="walkthrough3_harvest_activity_description_text_view_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum, tellus ac vulputate laoreet, massa ante euismod orci, quis pretium.</string>
+	<string name="walkthrough3_harvest_activity_title_text_view_text">Harvest</string>
+	
+	<!-- Walkthrough2SellActivity -->
+	<string name="walkthrough2_sell_activity_title"></string>
+	<string name="walkthrough2_sell_activity_description_text_view_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor dapibus tortor, sit amet mattis ex tincidunt eget. Proin hendrerit.</string>
+	<string name="walkthrough2_sell_activity_title_text_view_text">Sell</string>
+	
+	<!-- Walkthrough1BuyActivity -->
+	<string name="walkthrough1_buy_activity_title"></string>
+	<string name="walkthrough1_buy_activity_description_text_view_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis, urna nec convallis tempus, diam leo dictum enim, a pharetra.</string>
+	<string name="walkthrough1_buy_activity_title_text_view_text">Buy</string>
+	
+	<!-- HomeActivity -->
+	<string name="home_activity_title"></string>
+	<string name="home_activity_card_title_text_view_text">Sell</string>
+	<string name="home_activity_never_bother_anyone_text_view_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget massa egestas.</string>
+	<string name="home_activity_card_title_two_text_view_text">Buy</string>
+	<string name="home_activity_never_bother_anyone_two_text_view_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nunc lacus, commodo.</string>
+	<string name="home_activity_card_title_three_text_view_text">Transport</string>
+	<string name="home_activity_never_bother_anyone_three_text_view_text">Never bother anyone to arrange your logistics when it&apos;s at your fingertip.</string>
+	<string name="home_activity_card_title_four_text_view_text">Harvest</string>
+	<string name="home_activity_never_bother_anyone_four_text_view_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt faucibus purus.</string>
+	<string name="home_activity_center_text_text_view_text">Home</string>
+	
+	<!-- SignUpActivity -->
+	<string name="sign_up_activity_title"></string>
+	<string name="sign_up_activity_login_instead_button_text">Login Instead?</string>
+	<string name="sign_up_activity_email_text_view_text">EMAIL</string>
+	<string name="sign_up_activity_password_text_view_text">PASSWORD</string>
+	<string name="sign_up_activity_name_text_view_text">NAME</string>
+	<string name="sign_up_activity_button_button_text">Sign Up</string>
+	<string name="sign_up_activity_sign_up_text_view_text">Sign Up</string>
+	<string name="sign_up_activity_thengapal_text_view_text">ThengaPal</string>
+	
+	<!-- SignInActivity -->
+	<string name="sign_in_activity_title"></string>
+	<string name="sign_in_activity_don_thave_an_accoun_button_text">Don’t have an account? Sign up Now!</string>
+	<string name="sign_in_activity_button_button_text">Log In</string>
+	<string name="sign_in_activity_forgot_password_text_view_text">FORGOT PASSWORD</string>
+	<string name="sign_in_activity_password_text_view_text">PASSWORD</string>
+	<string name="sign_in_activity_email_text_view_text">EMAIL</string>
+	<string name="sign_in_activity_log_in_text_view_text">Log In</string>
+	<string name="sign_in_activity_thengapal_text_view_text">ThengaPal</string>
+</resources>
